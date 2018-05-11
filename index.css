@@ -26,8 +26,6 @@ nav{
     padding: 20px;
     width: 60%;
 }
-
-
 .subscribe{
     height: 30px;
     width: 70px;
@@ -42,7 +40,8 @@ section{
     justify-content: center;
     text-align: center;
     color: white;
-    /* padding: 30px; */
+    position: relative;
+     padding: 30px; 
 }
 .content{
     width: 60%;
@@ -62,4 +61,17 @@ p{
     display: inline-block;
     margin-top: 5px;
 }
+
+li{
+    list-style-type: none;
+    color: aliceblue;
+}
+
+.social{
+    position: absolute;
+    bottom: 30px;
+    right: 40px;
+}
+
+ 
 
